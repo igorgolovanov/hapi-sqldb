@@ -1,0 +1,42 @@
+{
+  "name": "hapi-sqldb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/igorgolovanov/hapi-sqldb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorgolovanov/hapi-sqldb/issues"
+  },
+  "homepage": "https://github.com/igorgolovanov/hapi-sqldb#readme",
+  "keywords": [
+    "hapi",
+    "knex",
+    "plugin",
+    "db",
+    "database",
+    "sql",
+    "pg",
+    "postgresql",
+    "mysql",
+    "sqlite"
+  ],
+  "author": {
+    "name": "Igor Golovanov",
+    "email": "igor.golovanov@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.x.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@hapi/code": "5.x.x",
+    "@hapi/lab": "18.x.x"
+  },
+  "scripts": {
+    "test": "lab -La @hapi/code -t 100"
+  }
+}
